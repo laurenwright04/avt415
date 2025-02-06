@@ -1,0 +1,43 @@
+/* Add Google Fonts link here */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Basic styling */
+body {
+  font-family: 'YourChosenFont', sans-serif; /* Change this to the font you choose */
+  background-image: url('path-to-your-background.jpg'); /* Custom background image */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #FF69B4; /* Cute pink color */
+  margin-top: 50px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #4B0082; /* A soft purple */
+  margin: 20px auto;
+  width: 80%;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #FF69B4;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #FF1493; /* Darker pink on hover */
+}
