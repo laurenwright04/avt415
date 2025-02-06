@@ -1,9 +1,5 @@
-/* Add Google Fonts link here */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
-/* Basic styling */
 body {
-  font-family: 'YourChosenFont', sans-serif; /* Change this to the font you choose */
+  font-family: 'Josefin Sans', sans-serif; 
   background-image: url('path-to-your-background.jpg'); /* Custom background image */
   background-size: cover;
   background-position: center;
