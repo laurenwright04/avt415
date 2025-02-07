@@ -26,17 +26,3 @@ p {
   line-height: 1.6;
 }
 
-button {
-  background-color: #FF69B4;
-  color: white;
-  font-size: 1rem;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-button:hover {
-  background-color: #FF1493; /* Darker pink on hover */
-}
