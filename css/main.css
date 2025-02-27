@@ -1,32 +1,51 @@
 @charset "UTF-8";
 /* CSS Document */
-* {
-  box-sizing: border-box;
-}
-html {font-size: 100%;} /*16px*/
-
 body {
-  background-color: #b09bbd;
-  color: #181354;
+  background-image: url('ideas_background.jpeg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Georgia', serif;
+  color: #a94468;
+  text-align: center;
   margin: 0;
-  padding: 50px;
-  line-height: 1.75;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(255, 240, 245, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 h1 {
-
-  font-size: 5em;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
-
-h2 {font-size: 3em;
-
+.dropdown {
+  margin-top: 10px;
 }
-
-h4 {font-size: 1.5em;
-margin-top: 0;
-
+.dropdown button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background: #ffdee9;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
-
-dt {
-	font-size: 2em;
-	font-weight: bold;
+.dropdown button:hover {
+  background: #ffc1d6;
+}
+.dropdown-content {
+  display: none;
+  background: #fff5f8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.dropdown.active .dropdown-content {
+  display: block;
 }
