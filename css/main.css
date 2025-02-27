@@ -1,51 +1,73 @@
 @charset "UTF-8";
-/* CSS Document */
 body {
-  background-image: url('ideas_background.jpeg');
-  background-size: cover;
-  background-position: center;
-  font-family: 'Georgia', serif;
-  color: #a94468;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  text-align: center;
 }
+
 .container {
   max-width: 600px;
-  margin: 50px auto;
-  background: rgba(255, 240, 245, 0.9);
+  margin: auto;
+  background: #fff;
   padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-.dropdown {
-  margin-top: 10px;
-}
-.dropdown button {
-  width: 100%;
-  padding: 10px;
-  font-size: 18px;
-  background: #ffdee9;
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ff66b2;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
+  width: 100%;
+  text-align: left;
   transition: background 0.3s;
 }
-.dropdown button:hover {
-  background: #ffc1d6;
+
+.dropbtn:hover {
+  background-color: #ff4d94;
 }
+
+/* Dropdown Container */
+.dropdown {
+  position: relative;
+  margin-top: 10px;
+}
+
+/* Dropdown Content */
 .dropdown-content {
   display: none;
-  background: #fff5f8;
-  padding: 10px;
-  border-radius: 8px;
-  margin-top: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
 }
-.dropdown.active .dropdown-content {
+
+.dropdown-content a {
   display: block;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffecf5;
+}
+
+/* Show Dropdown */
+.show {
+  display: block;
+  max-height: 500px; /* Smooth opening effect */
 }
