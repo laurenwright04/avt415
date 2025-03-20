@@ -16,7 +16,6 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Dropdown Button */
 .dropbtn {
   background-color: #ff66b2;
   color: white;
@@ -34,13 +33,11 @@ body {
   background-color: #ff4d94;
 }
 
-/* Dropdown Container */
 .dropdown {
   position: relative;
   margin-top: 10px;
 }
 
-/* Dropdown Content */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -66,8 +63,7 @@ body {
   background-color: #ffecf5;
 }
 
-/* Show Dropdown */
 .show {
   display: block;
-  max-height: 500px; /* Smooth opening effect */
+  max-height: 500px;
 }
