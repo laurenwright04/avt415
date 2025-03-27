@@ -3,13 +3,6 @@
 body {
   font-family: 'Josefin Sans', sans-serif; 
   background-size: cover;
-   background-image: url('ideas_background.jpeg')
-
-  background-position: enter;
-  margin:0;
-  padding:0;
-  color:#333;
-  text-align:left
 }
 
 h1 {
