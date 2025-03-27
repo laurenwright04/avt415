@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: Arial, sans-serif;
+  font-family: Poppins, sans-serif;
   background-color: #FFF5F0;
   margin: 0;
   padding: 20px;
@@ -32,7 +32,6 @@ body {
     font-style: italic;
   }
 
-
   .playfair-display-regular {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -43,7 +42,16 @@ body {
 h1 {
     font-size: 50pt;
     font-family: "Playfair Display", serif;
+    Color: #D99AA1;
   }
+
+h2 {
+  font-size: 20pt;
+  font-family: "Poppins", serif;
+  color: #D99AA1;
+
+
+}
 
 .container {
   max-width: 600px;
