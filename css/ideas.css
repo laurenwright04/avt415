@@ -5,23 +5,22 @@ body {
   background-size: cover;
    background-image: url('ideas_background.jpeg')
 
-/* Custom background image */
-  background-position: center;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  text-align: left;
+  background-position: enter;
+  margin:0;
+  padding:0;
+  color:#333;
+  text-align:left
 }
 
 h1 {
   font-size: 3rem;
-  color: #FF69B4; /* Cute pink color */
+  color: #FF69B4;
   margin-top: 50px;
 }
 
 p {
   font-size: 1.2rem;
-  color: #4B0082; /* A soft purple */
+  color: #4B0082;
   margin: 20px auto;
   width: 80%;
   line-height: 1.6;
